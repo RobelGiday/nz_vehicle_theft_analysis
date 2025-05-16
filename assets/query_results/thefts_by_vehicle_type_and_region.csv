@@ -1,0 +1,208 @@
+﻿vehicle_type,region,num_of_thefts
+Saloon,Auckland,326
+Stationwagon,Auckland,306
+Hatchback,Auckland,294
+Stationwagon,Canterbury,165
+Roadbike,Auckland,163
+Trailer,Auckland,140
+Trailer,Canterbury,128
+Utility,Bay of Plenty,100
+Saloon,Canterbury,99
+Stationwagon,Wellington,91
+Moped,Auckland,88
+Saloon,Bay of Plenty,85
+Utility,Auckland,83
+Saloon,Waikato,80
+Stationwagon,Bay of Plenty,78
+Light Van,Auckland,71
+Stationwagon,Waikato,71
+Saloon,Wellington,69
+Stationwagon,Northland,69
+Hatchback,Canterbury,66
+Utility,Canterbury,61
+Hatchback,Waikato,61
+Hatchback,Wellington,57
+Trailer,Waikato,56
+Trailer,Bay of Plenty,54
+Hatchback,Bay of Plenty,48
+Roadbike,Wellington,48
+Trailer,Wellington,46
+Saloon,Gisborne,41
+Stationwagon,Gisborne,39
+Utility,Wellington,39
+Boat Trailer,Auckland,37
+Saloon,Northland,37
+Trailer - Heavy,Auckland,36
+Utility,Northland,34
+Utility,Waikato,34
+Moped,Canterbury,33
+Stationwagon,Otago,31
+Saloon,Otago,29
+Hatchback,Gisborne,29
+Stationwagon,Manawatū-Whanganui,29
+Saloon,Manawatū-Whanganui,28
+Hatchback,Northland,28
+Trailer,Manawatū-Whanganui,27
+Utility,Gisborne,27
+Trailer,Otago,27
+Moped,Wellington,27
+Light Van,Canterbury,24
+Trailer,Hawke's Bay,23
+Trailer,Northland,23
+Stationwagon,Taranaki,23
+Light Van,Wellington,22
+Trailer,Taranaki,21
+Saloon,Taranaki,21
+Utility,Otago,21
+Saloon,Hawke's Bay,20
+Utility,Manawatū-Whanganui,20
+Trailer,Nelson,19
+Roadbike,Canterbury,19
+Other Truck,Auckland,18
+Stationwagon,Nelson,17
+Utility,Hawke's Bay,16
+Trailer - Heavy,Canterbury,16
+Boat Trailer,Waikato,16
+Roadbike,Waikato,15
+Trailer,Gisborne,15
+Sports Car,Auckland,15
+Boat Trailer,Bay of Plenty,14
+Moped,Bay of Plenty,14
+Caravan,Auckland,14
+Stationwagon,Hawke's Bay,14
+Hatchback,Manawatū-Whanganui,14
+Utility,Nelson,14
+Roadbike,Northland,14
+Utility,Taranaki,14
+Hatchback,Taranaki,13
+Boat Trailer,Canterbury,13
+Hatchback,Otago,12
+Roadbike,Bay of Plenty,11
+Trailer - Heavy,Bay of Plenty,10
+Convertible,Auckland,9
+Caravan,Canterbury,9
+Hatchback,Hawke's Bay,9
+Stationwagon,Southland,9
+Light Van,Waikato,8
+Trailer - Heavy,Waikato,8
+Hatchback,Nelson,8
+Flat Deck Truck,Auckland,8
+Light Van,Bay of Plenty,8
+Sports Car,Bay of Plenty,7
+Saloon,Nelson,7
+Moped,Waikato,7
+Saloon,Southland,7
+Roadbike,Nelson,6
+Light Van,Nelson,6
+Boat Trailer,Northland,6
+Other Truck,Canterbury,6
+Trailer - Heavy,Gisborne,5
+Caravan,Bay of Plenty,5
+Light Van,Manawatū-Whanganui,5
+Roadbike,Hawke's Bay,5
+Roadbike,Manawatū-Whanganui,5
+Boat Trailer,Wellington,5
+Caravan,Wellington,4
+Moped,Taranaki,4
+Moped,Northland,4
+Other Truck,Northland,4
+Other Truck,Bay of Plenty,4
+Unknown,Auckland,4
+Sports Car,Gisborne,4
+Sports Car,Canterbury,4
+Boat Trailer,Gisborne,3
+Mobile Home - Light,Canterbury,3
+Light Bus,Auckland,3
+Cab and Chassis Only,Auckland,3
+Mobile Home - Light,Auckland,3
+Unknown,Bay of Plenty,3
+Boat Trailer,Otago,3
+Trailer - Heavy,Manawatū-Whanganui,3
+Roadbike,Gisborne,3
+Caravan,Hawke's Bay,3
+Sports Car,Hawke's Bay,3
+Roadbike,Taranaki,3
+Boat Trailer,Taranaki,3
+Moped,Otago,3
+Trailer - Heavy,Wellington,3
+Sports Car,Waikato,3
+Other Truck,Waikato,2
+Caravan,Waikato,2
+Other Truck,Otago,2
+Roadbike,Otago,2
+Light Van,Otago,2
+Roadbike,Southland,2
+Hatchback,Southland,2
+Unknown,Otago,2
+Flat Deck Truck,Taranaki,2
+Light Van,Taranaki,2
+Mobile Home - Light,Taranaki,2
+Trailer,Southland,2
+Utility,Southland,2
+All Terrain Vehicle,Taranaki,2
+Trailer - Heavy,Taranaki,2
+Boat Trailer,Manawatū-Whanganui,2
+Light Van,Hawke's Bay,2
+Boat Trailer,Nelson,2
+Caravan,Nelson,2
+Flat Deck Truck,Nelson,2
+Trailer - Heavy,Northland,2
+Tractor,Northland,2
+Light Van,Northland,2
+Caravan,Northland,2
+Trailer - Heavy,Nelson,2
+Mobile Home - Light,Nelson,2
+Moped,Nelson,2
+Other Truck,Nelson,2
+Mobile Machine,Auckland,2
+Heavy Van,Auckland,2
+Light Bus,Canterbury,2
+Convertible,Canterbury,2
+Flat Deck Truck,Canterbury,2
+All Terrain Vehicle,Canterbury,2
+Light Van,Gisborne,2
+Mobile Home - Light,Gisborne,2
+Moped,Gisborne,2
+Other Truck,Gisborne,1
+Flat Deck Truck,Gisborne,1
+Trail Bike,Canterbury,1
+Cab and Chassis Only,Canterbury,1
+Heavy Van,Canterbury,1
+Special Purpose Vehicle,Canterbury,1
+Convertible,Bay of Plenty,1
+Mobile Home - Light,Bay of Plenty,1
+Heavy Van,Nelson,1
+All Terrain Vehicle,Northland,1
+Flat Deck Truck,Northland,1
+Cab and Chassis Only,Northland,1
+Heavy Van,Northland,1
+Light Bus,Northland,1
+Sports Car,Northland,1
+Unknown,Northland,1
+Cab and Chassis Only,Otago,1
+Caravan,Otago,1
+Unknown,Manawatū-Whanganui,1
+Sports Car,Manawatū-Whanganui,1
+Mobile Home - Light,Manawatū-Whanganui,1
+Moped,Manawatū-Whanganui,1
+Other Truck,Manawatū-Whanganui,1
+Moped,Hawke's Bay,1
+Other Truck,Hawke's Bay,1
+Boat Trailer,Hawke's Bay,1
+Caravan,Manawatū-Whanganui,1
+Trailer - Heavy,Hawke's Bay,1
+Tractor,Hawke's Bay,1
+Articulated Truck,Waikato,1
+Caravan,Southland,1
+Moped,Southland,1
+Mobile Home - Light,Otago,1
+Sports Car,Otago,1
+Trail Bike,Otago,1
+Cab and Chassis Only,Waikato,1
+Heavy Van,Waikato,1
+Tractor,Waikato,1
+Cab and Chassis Only,Wellington,1
+Sports Car,Wellington,1
+Flat Deck Truck,Wellington,1
+Heavy Van,Wellington,1
+Other Truck,Wellington,1

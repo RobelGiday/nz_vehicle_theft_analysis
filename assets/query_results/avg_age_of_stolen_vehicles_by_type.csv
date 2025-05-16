@@ -1,0 +1,27 @@
+﻿vehicle_type,num_of_thefts,avg_age
+Stationwagon,942,19
+Saloon,849,19
+Hatchback,641,16
+Trailer,581,11
+Utility,465,17
+Roadbike,296,9
+Moped,187,7
+Light Van,154,19
+Boat Trailer,105,13
+Trailer - Heavy,88,11
+Caravan,44,27
+Other Truck,42,23
+Sports Car,40,22
+Flat Deck Truck,17,27
+Mobile Home - Light,15,34
+Convertible,12,22
+Unknown,11,9
+Cab and Chassis Only,8,10
+Heavy Van,7,22
+Light Bus,6,14
+All Terrain Vehicle,5,10
+Tractor,4,7
+Mobile Machine,2,4
+Trail Bike,2,20
+Special Purpose Vehicle,1,64
+Articulated Truck,1,15
