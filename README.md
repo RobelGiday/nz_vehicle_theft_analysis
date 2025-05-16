@@ -22,10 +22,12 @@ SELECT
 FROM stolen_vehicles
 GROUP BY DATENAME(WEEKDAY, date_stolen)
 ORDER BY num_of_thefts DESC;
+```
 
 [Click here to view query results](assets/query_results/thefts_by_day.csv)
 
 What types of vehicles are most often and least often stolen? Does this vary by region?
+```sql
 SELECT 
 	vehicle_type,
 	region,
@@ -33,22 +35,25 @@ SELECT
 FROM stolen_vehicles s 
 JOIN locations l ON s.location_id=l.location_id
 GROUP BY vehicle_type, region
-ORDER BY num_of_thefts DESC
+ORDER BY num_of_thefts DESC;
+```
 
 [Click here to view query results](assets/query_results/thefts_by_vehicle_type_and_region.csv)
 
 What is the average age of the vehicles that are stolen? Does this vary based on the vehicle type?
+``` sql
 SELECT 
 	vehicle_type,
 	COUNT(*) AS num_of_thefts,
 	AVG(age) AS avg_age
 FROM stolen_vehicles
 GROUP BY vehicle_type
-ORDER BY num_of_thefts DESC
-
+ORDER BY num_of_thefts DESC;
+```
 [Click here to view query results](assets/query_results/avg_age_of_stolen_vehicles_by_type.csv)
 
 Which regions have the most and least number of stolen vehicles? What are the characteristics of the regions?
+``` sql
 SELECT
 	region,
 	population,
@@ -57,6 +62,7 @@ SELECT
 FROM stolen_vehicles s 
 JOIN locations l ON s.location_id=l.location_id
 GROUP BY region, population, density
-ORDER BY num_of_thefts DESC
+ORDER BY num_of_thefts DESC;
+```
 
 [Click here to view query results](assets/query_results/thefts_by_region.csv)
