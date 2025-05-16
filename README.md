@@ -15,12 +15,13 @@ All SQL queries can be accessed here.
 
 What day of the week are vehicles most often and least often stolen?
 
+``` sql
 SELECT 
 	DATENAME(WEEKDAY, date_stolen) as day_of_week,
 	COUNT(*) as num_of_thefts
 FROM stolen_vehicles
 GROUP BY DATENAME(WEEKDAY, date_stolen)
-ORDER BY num_of_thefts DESC
+ORDER BY num_of_thefts DESC;
 
 [Click here to view query results](assets/query_results/thefts_by_day.csv)
 
