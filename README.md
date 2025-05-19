@@ -8,9 +8,16 @@ Vehicle theft is a worldwide issue affecting many motorists. This project analys
 
 ### Data Sources 
 The dataset used in this analysis comes from Maven Analytics. It contains records on vehicle thefts in New Zealand over six months, from October 2021 to April 2022
-* Raw datasets
-* Cleaning script
-* Clean datasets
+* [Raw datasets](https://maven-datasets.s3.amazonaws.com/Motor+Vehicle+Thefts/Motor+Vehicle+Thefts+CSV.zip)
+* [Cleaning script](https://github.com/RobelGiday/nz_vehicle_theft_analysis/raw/refs/heads/main/assets/cleaning%20datasets%20script)
+* [Clean datasets](assets/cleaned_data)
+
+### Database Structure 
+Figure 1 shows that the database consists of three tables: make_details, locations and stolen_vehicles, with a total row count of 4,677 records. 
+
+#### Figure 1: Entity Relationship Diagram
+![vehicle_thefts_erd](assets/images/vehicle_thefts_erd.png)
+
 
 ## SQL Queries 
 ### Vehicle Thefts by Day
@@ -75,4 +82,7 @@ GROUP BY vehicle_type
 ORDER BY num_of_thefts DESC;
 ```
 [Click here to view query results](assets/query_results/avg_age_of_stolen_vehicles_by_type.csv)
+
+## Conclusions 
+Vehicle theft in New Zealand follows clear patterns in theft frequency and vehicle preferences. Theft is more frequent on weekdays, particularly Mondays, and more common in densely populated areas like Auckland and Wellington. Saloons, station wagons, and hatchbacks are prime targets due to accessibility and resale value. Mid-aged vehicles are stolen more often since they lack advanced security features. Insights from this data can help policymakers and law enforcement improve prevention strategies. By addressing vulnerabilities in high-theft regions and encouraging modern security measures, authorities can work towards reducing vehicle theft rates across the country. 
 
