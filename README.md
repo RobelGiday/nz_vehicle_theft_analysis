@@ -12,9 +12,6 @@ The dataset used in this analysis comes from Maven Analytics. It contains record
 * [Cleaning script](https://github.com/RobelGiday/nz_vehicle_theft_analysis/raw/refs/heads/main/assets/cleaning%20datasets%20script)
 * [Clean datasets](assets/cleaned_data)
 
-### Database Structure 
-Figure 1 shows that the database consists of three tables: make_details, locations and stolen_vehicles, with a total row count of 4,677 records. 
-
 #### Figure 1: Entity Relationship Diagram
 ![vehicle_thefts_erd](assets/images/vehicle_thefts_erd.png)
 
