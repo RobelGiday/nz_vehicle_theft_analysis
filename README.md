@@ -7,13 +7,17 @@ Vehicle theft is a worldwide issue affecting many motorists. This project analys
 * Discover which regions have the highest and lowest theft rates.
 
 ### Data Sources 
-The dataset used in this analysis comes from Maven Analytics.
-The cleaning script used to clean and format the data for analysis can be found here.
-The clean dataset can be founded here.
-All SQL queries can be accessed here.
+The dataset used in this analysis comes from Maven Analytics. It contains records on vehicle thefts in New Zealand over six months, from October 2021 to April 2022
+* Raw datasets
+* Cleaning script
+* Clean datasets
 
+## Vehicle Thefts by Day
 
-What day of the week are vehicles most often and least often stolen?
+Monday has the highest number of vehicle thefts, with 761 incidents, while Saturday recorded the lowest, with
+573 thefts. Vehicle thefts are generally more frequent on weekdays than weekends, likely due to reduced work
+commutes and more vehicles securely parked at home. Therefore, thefts are more likely to occur on business
+days. 
 
 ``` sql
 SELECT 
@@ -26,33 +30,7 @@ ORDER BY num_of_thefts DESC;
 
 [Click here to view query results](assets/query_results/thefts_by_day.csv)
 
-What types of vehicles are most often and least often stolen? Does this vary by region?
-```sql
-SELECT 
-	vehicle_type,
-	region,
-	COUNT(*) as num_of_thefts
-FROM stolen_vehicles s 
-JOIN locations l ON s.location_id=l.location_id
-GROUP BY vehicle_type, region
-ORDER BY num_of_thefts DESC;
-```
-
-[Click here to view query results](assets/query_results/thefts_by_vehicle_type_and_region.csv)
-
-What is the average age of the vehicles that are stolen? Does this vary based on the vehicle type?
-``` sql
-SELECT 
-	vehicle_type,
-	COUNT(*) AS num_of_thefts,
-	AVG(age) AS avg_age
-FROM stolen_vehicles
-GROUP BY vehicle_type
-ORDER BY num_of_thefts DESC;
-```
-[Click here to view query results](assets/query_results/avg_age_of_stolen_vehicles_by_type.csv)
-
-Which regions have the most and least number of stolen vehicles? What are the characteristics of the regions?
+## Vehicle Thefts by Region 
 ``` sql
 SELECT
 	region,
@@ -66,3 +44,33 @@ ORDER BY num_of_thefts DESC;
 ```
 
 [Click here to view query results](assets/query_results/thefts_by_region.csv)
+
+Areas with higher population densities, like Auckland and Wellington, indicate that thefts occur more frequently in crowded areas, with 1625 thefts in Auckland and 416 thefts in Wellington. Although Nelson also has a high population density, it reports only 92 thefts, possibly due to better enforcement or low vehicle numbers. In contrast, regions with lower population densities tend to have fewer vehicles, which reduces the likelihood of theft. As A result, Southland and Hawke's Bay account for the lowest number of thefts in New Zealand, with 26 thefts in Southland and 100 thefts in Hawke's Bay.
+
+## Vehicle Thefts by Type and Region 
+```sql
+SELECT 
+	vehicle_type,
+	region,
+	COUNT(*) as num_of_thefts
+FROM stolen_vehicles s 
+JOIN locations l ON s.location_id=l.location_id
+GROUP BY vehicle_type, region
+ORDER BY num_of_thefts DESC;
+```
+[Click here to view query results](assets/query_results/thefts_by_vehicle_type_and_region.csv)
+
+Auckland reports having the most vehicle thefts in New Zealand, with perpetrators stealing 326 saloons, 306 station wagons and 294 hatchbacks. Still significant but lower than Auckland, both Canterbury & Wellington have recorded many thefts. In contrast, rural regions like Gisborne and Southland report far fewer thefts. Thieves often target saloons, station wagons and hatchbacks because these vehicle types are widely available, making them easier to sell or dismantle for parts. Meanwhile, luxury, heavy-duty, and niche vehicles are rarely stolen due to their size, tracking technology, limited usability, and may have lower resale demand. 
+
+## Average Age of Stolen Vehicle Types
+``` sql
+SELECT 
+	vehicle_type,
+	COUNT(*) AS num_of_thefts,
+	AVG(age) AS avg_age
+FROM stolen_vehicles
+GROUP BY vehicle_type
+ORDER BY num_of_thefts DESC;
+```
+[Click here to view query results](assets/query_results/avg_age_of_stolen_vehicles_by_type.csv)
+According to the datasets, station wagons and saloons are the most frequently stolen vehicle types, with an average age of 19 years. These vehicles are widely available and easily accessible for thieves to steal, with high resale demand for parts. Additionally, thieves may prefer mid-aged vehicles over very old or very new ones, possibly due to the absence of modern anti-theft technology. Regardless of age, thieves less often target articulated trucks and special-purpose vehicles, likely because they are equipped with anti-theft technology and have lower resale demand. 
